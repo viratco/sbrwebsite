@@ -104,10 +104,35 @@
 @media (max-width: 768px) {
     .about-container {
         flex-direction: column;
-        gap: 2rem;
+        gap: 3rem;
+        position: relative;
+    }
+
+    .about-text-content {
+        max-width: 100%;
+        text-align: center;
+        /* Center text on mobile for better balance */
     }
 
     .about-headline {
-        font-size: 2.5rem;
+        font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    .about-badge-container {
+        position: relative;
+        /* Switch to relative flow */
+        right: auto;
+        top: auto;
+        transform: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .circular-badge {
+        width: 160px;
+        /* Smaller on mobile */
+        height: 160px;
     }
 }
