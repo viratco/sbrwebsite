@@ -153,3 +153,42 @@
     animation-delay: 1.2s;
     /* Start after text appears */
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero-container {
+        padding: 0 1rem;
+        margin-top: 90px;
+    }
+
+    .hero-section {
+        height: auto;
+        min-height: 85vh;
+        margin-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .hero-image-wrapper {
+        height: 70vh;
+        border-radius: 20px;
+    }
+
+    .hero-overlay {
+        padding-left: 1.5rem;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent 60%);
+        justify-content: flex-start;
+        align-items: flex-end;
+        padding-bottom: 4rem;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+        /* Fallback */
+        font-size: clamp(2.5rem, 10vw, 3.5rem);
+    }
+
+    .squiggle {
+        bottom: -10px;
+        height: 15px;
+    }
+}
