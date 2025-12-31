@@ -1,28 +1,26 @@
-
-import { useEffect, useRef } from 'react';
-import gsap from 'gsap';
+import React, { useRef, useState, useEffect } from 'react';
+import { FaArrowRight } from 'react-icons/fa';
 import './VIPSection.css';
+import mapImage from '../assets/black_aesthetic_map.png';
 
-const AnimatedCounter = ({ end, duration = 2.5 }) => {
+const AnimatedCounter = ({ end, duration = 2000 }) => {
+    const [count, setCount] = useState(0);
     const countRef = useRef(null);
-    const observerRef = useRef(null);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
             (entries) => {
                 if (entries[0].isIntersecting) {
-                    const counter = { val: 0 };
-                    gsap.to(counter, {
-                        val: end,
-                        duration: duration,
-                        ease: "power3.out", // Very smooth easing
-                        onUpdate: () => {
-                            if (countRef.current) {
-                                countRef.current.textContent = Math.floor(counter.val);
-                            }
+                    let startTime = null;
+                    const step = (timestamp) => {
+                        if (!startTime) startTime = timestamp;
+                        const progress = Math.min((timestamp - startTime) / duration, 1);
+                        setCount(Math.floor(progress * end));
+                        if (progress < 1) {
+                            window.requestAnimationFrame(step);
                         }
-                    });
-                    observer.disconnect();
+                    };
+                    window.requestAnimationFrame(step);
                 }
             },
             { threshold: 0.5 }
@@ -32,41 +30,21 @@ const AnimatedCounter = ({ end, duration = 2.5 }) => {
             observer.observe(countRef.current);
         }
 
-        return () => observer.disconnect();
+        return () => {
+            if (countRef.current) {
+                observer.unobserve(countRef.current);
+            }
+        };
     }, [end, duration]);
 
-    return <span ref={countRef}>0</span>;
+    return <span ref={countRef}>{count}</span>;
 };
-
-import mapImage from '../assets/black_aesthetic_map.png';
 
 const VIPSection = () => {
     return (
         <section className="vip-section">
             <div className="vip-container">
                 <div className="vip-content">
-                </div>
-
-                <div className="vip-buttons">
-                    <button className="btn-primary">
-                        Add Property <span className="btn-icon">+</span>
-                    </button>
-                    <button className="btn-outlined">
-                        <svg width="12" height="14" viewBox="0 0 12 14" fill="none">
-                            <path d="M11 7L1 13L1 1L11 7Z" fill="currentColor" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
-                        Play Video
-                    </button>
-                </div>
-            </div>
-
-            <div className="vip-visual">
-                <div className="map-container">
-                    <img
-                        src="/src/assets/black_aesthetic_map.png"
-                        alt="Location Map"
-                        className="map-image"
-                    />
 
                     {/* SVG Path Overlay */}
                     <svg className="map-path-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
