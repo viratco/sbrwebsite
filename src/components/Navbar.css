@@ -1,0 +1,94 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    z-index: 1000;
+}
+
+.navbar-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; Removed to allow custom alignment */
+}
+
+/* Logo Styles */
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo-image {
+    height: 80px;
+    /* Increased size significantly */
+    width: auto;
+    object-fit: contain;
+}
+
+/* Center Pill Menu */
+.navbar-menu {
+    margin-left: auto;
+    /* Push to the right */
+    margin-right: 1.5rem;
+    /* Gap between menu and CTA */
+    background-color: white;
+    border-radius: 999px;
+    /* Pill shape */
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #E65100;
+}
+
+.chevron {
+    width: 10px;
+    height: 6px;
+    opacity: 0.6;
+}
+
+/* Right CTA Button */
+.navbar-cta {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 999px;
+    /* Pill shape */
+    padding: 0.75rem 1.5rem;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.navbar-cta:hover {
+    border-color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-cta svg {
+    opacity: 0.9;
+}
