@@ -54,6 +54,10 @@
     line-height: 1;
     color: white;
     letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+    min-width: 120px;
+    /* Reserve space */
+    display: inline-block;
 }
 
 .stat-desc {
