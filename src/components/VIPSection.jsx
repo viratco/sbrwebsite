@@ -45,38 +45,74 @@ const VIPSection = () => {
         <section className="vip-section">
             <div className="vip-container">
                 <div className="vip-content">
+                    <h2 className="vip-title">
+                        Find The Most VIP Project<br />
+                        Residence Near You Now!
+                    </h2>
 
-                    {/* SVG Path Overlay */}
-                    <svg className="map-path-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                        <filter id="glow">
-                            <feGaussianBlur stdDeviation="2" result="coloredBlur" />
-                            <feMerge>
-                                <feMergeNode in="coloredBlur" />
-                                <feMergeNode in="SourceGraphic" />
-                            </feMerge>
-                        </filter>
+                    <div className="vip-stats-row">
+                        <div className="vip-stat">
+                            <span className="stat-number">
+                                <AnimatedCounter end={90} />%
+                            </span>
+                            <span className="stat-desc">Resources 3+ years experienced.</span>
+                        </div>
+                        <div className="stat-divider"></div>
+                        <div className="vip-stat">
+                            <span className="stat-number">
+                                <AnimatedCounter end={85} />%
+                            </span>
+                            <span className="stat-desc">Customer loyalty percentage rate.</span>
+                        </div>
+                    </div>
 
-                        <path
-                            d="M80 30 L65 45 L50 40 L40 65 L20 60"
-                            stroke="#ff6b35"
-                            strokeWidth="1.5"
-                            fill="none"
-                            filter="url(#glow)"
-                            className="path-main"
+                    <div className="vip-buttons">
+                        <button className="btn-primary">
+                            Enquire Now <FaArrowRight className="btn-icon" />
+                        </button>
+                    </div>
+                </div>
+
+                <div className="vip-visual">
+                    <div className="map-container">
+                        <img
+                            src={mapImage}
+                            alt="Location Map"
+                            className="map-image"
                         />
 
-                        <g transform="translate(80, 30)">
-                            <circle cx="0" cy="0" r="4" fill="#ff6b35" opacity="0.4" />
-                            <circle cx="0" cy="0" r="2" fill="#ff6b35" />
-                        </g>
-                        <g transform="translate(50, 40)">
-                            <circle cx="0" cy="0" r="2" fill="#ff6b35" />
-                        </g>
-                        <g transform="translate(20, 60)">
-                            <circle cx="0" cy="0" r="6" fill="#ff6b35" />
-                            <path d="M-3 0 L0 3 L3 0 L0 -3 Z" fill="white" />
-                        </g>
-                    </svg>
+                        {/* SVG Path Overlay */}
+                        <svg className="map-path-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <filter id="glow">
+                                <feGaussianBlur stdDeviation="2" result="coloredBlur" />
+                                <feMerge>
+                                    <feMergeNode in="coloredBlur" />
+                                    <feMergeNode in="SourceGraphic" />
+                                </feMerge>
+                            </filter>
+
+                            <path
+                                d="M80 30 L65 45 L50 40 L40 65 L20 60"
+                                stroke="#ff6b35"
+                                strokeWidth="1.5"
+                                fill="none"
+                                filter="url(#glow)"
+                                className="path-main"
+                            />
+
+                            <g transform="translate(80, 30)">
+                                <circle cx="0" cy="0" r="4" fill="#ff6b35" opacity="0.4" />
+                                <circle cx="0" cy="0" r="2" fill="#ff6b35" />
+                            </g>
+                            <g transform="translate(50, 40)">
+                                <circle cx="0" cy="0" r="2" fill="#ff6b35" />
+                            </g>
+                            <g transform="translate(20, 60)">
+                                <circle cx="0" cy="0" r="6" fill="#ff6b35" />
+                                <path d="M-3 0 L0 3 L3 0 L0 -3 Z" fill="white" />
+                            </g>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </section>
