@@ -145,3 +145,17 @@
     letter-spacing: 1px;
     margin-top: var(--spacing-sm);
 }
+
+@media (max-width: 768px) {
+    .contact-form-section {
+        padding: var(--spacing-lg) 0;
+    }
+
+    .glass-form {
+        padding: 1.5rem;
+    }
+
+    .contact-title {
+        font-size: 2.5rem;
+    }
+}

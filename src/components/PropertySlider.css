@@ -322,6 +322,12 @@
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+@media (max-width: 480px) {
+    .modal-details-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .detail-item {
     display: flex;
     flex-direction: column;
