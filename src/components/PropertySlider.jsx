@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { FaArrowRight, FaMapMarkerAlt, FaArrowLeft } from 'react-icons/fa';
 import './PropertySlider.css';
+import config from '../config';
 
 // Images handled dynamically via URL or fallback
 
@@ -12,7 +13,7 @@ const PropertySlider = () => {
     React.useEffect(() => {
         const fetchProperties = async () => {
             try {
-                const response = await fetch('http://localhost:5001/api/properties');
+                const response = await fetch(`${config.API_URL}/api/properties`);
                 if (response.ok) {
                     const data = await response.json();
                     setProperties(data);

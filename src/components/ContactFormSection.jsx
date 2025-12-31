@@ -6,8 +6,9 @@ const ContactFormSection = () => {
         name: '',
         email: '',
         phone: '',
-        occupation: 'Businessman',
-        interestedIn: 'General Inquiry'
+        interestedIn: 'Buying',
+        occupation: 'Salaried',
+        message: ''
     });
 
     const handleChange = (e) => {
@@ -20,7 +21,7 @@ const ContactFormSection = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('http://localhost:5001/api/leads', {
+            const response = await fetch(`${config.API_URL}/api/leads`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(formData),
