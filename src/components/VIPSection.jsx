@@ -79,8 +79,7 @@ const VIPSection = () => {
                     </svg>
                 </div>
             </div>
-        </div>
-        </section >
+        </section>
     );
 };
 
