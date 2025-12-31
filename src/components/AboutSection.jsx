@@ -6,17 +6,25 @@ const AboutSection = () => {
     const badgeRef = useRef(null);
 
     useEffect(() => {
+        let animationFrameId;
+
         const handleScroll = () => {
-            if (badgeRef.current) {
-                // Rotate based on scroll position
-                // Factor 0.2 determines speed
-                const rotation = window.scrollY * 0.2;
-                badgeRef.current.style.transform = `rotate(${rotation}deg)`;
-            }
+            animationFrameId = window.requestAnimationFrame(() => {
+                if (badgeRef.current) {
+                    const rotation = window.scrollY * 0.15; // Slightly slower for elegance
+                    badgeRef.current.style.transform = `rotate(${rotation}deg)`;
+                }
+            });
         };
 
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+        window.addEventListener('scroll', handleScroll, { passive: true });
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+            if (animationFrameId) {
+                window.cancelAnimationFrame(animationFrameId);
+            }
+        };
     }, []);
 
     return (
