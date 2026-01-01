@@ -1,4 +1,4 @@
-import { FaEnvelope, FaPhone, FaChevronRight } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaChevronRight, FaMapMarkerAlt } from 'react-icons/fa';
 import './Footer.css';
 import logo from '../assets/logo.png';
 import footerBg from '../assets/footer_bg.png';
@@ -18,54 +18,40 @@ const Footer = () => {
                     </p>
                     <div className="contact-info">
                         <div className="contact-item">
-                            <div className="contact-icon"><FaEnvelope /></div>
+                            <div className="contact-icon"><FaMapMarkerAlt /></div>
                             <div className="contact-text">
-                                <p>example@yoursite.com</p>
-                                <p>services@yoursite.com</p>
+                                <p>Cb-009; Ansal Golf Link -1,</p>
+                                <p>Greater Noida</p>
                             </div>
                         </div>
                         <div className="contact-item">
                             <div className="contact-icon"><FaPhone /></div>
                             <div className="contact-text">
-                                <p>+88 55344 - 251122</p>
+                                <p>+91 97180 16677</p>
+                                <p>+91 88515 80526</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                {/* Column 2: Company */}
+                {/* Column 2: Quick Links */}
                 <div className="footer-col links-col">
-                    <h3>Company</h3>
+                    <h3>Quick Links</h3>
                     <ul className="footer-links">
-                        <li><a href="#"><FaChevronRight /> Careers</a></li>
-                        <li><a href="#"><FaChevronRight /> Pricing Plans</a></li>
-                        <li><a href="#"><FaChevronRight /> Marketing</a></li>
-                        <li><a href="#"><FaChevronRight /> Design services</a></li>
-                        <li><a href="#"><FaChevronRight /> Faqs</a></li>
+                        <li><a href="/"><FaChevronRight /> Home</a></li>
+                        <li><a href="#about"><FaChevronRight /> About Us</a></li>
+                        <li><a href="#properties"><FaChevronRight /> Properties</a></li>
+                        <li><a href="#contact"><FaChevronRight /> Contact</a></li>
                     </ul>
                 </div>
 
-                {/* Column 3: Other Links */}
+                {/* Column 3: Legal & Support (Simplified) */}
                 <div className="footer-col links-col">
-                    <h3>Other Links</h3>
+                    <h3>Support</h3>
                     <ul className="footer-links">
-                        <li><a href="#"><FaChevronRight /> Blog</a></li>
-                        <li><a href="#"><FaChevronRight /> About</a></li>
-                        <li><a href="#"><FaChevronRight /> Our Consultants</a></li>
-                        <li><a href="#"><FaChevronRight /> Real Estate</a></li>
-                        <li><a href="#"><FaChevronRight /> Contact Us</a></li>
-                    </ul>
-                </div>
-
-                {/* Column 4: Our Services */}
-                <div className="footer-col links-col">
-                    <h3>Our Services</h3>
-                    <ul className="footer-links">
-                        <li><a href="#"><FaChevronRight /> Apartment for Rent</a></li>
-                        <li><a href="#"><FaChevronRight /> Apartment Low to Hide</a></li>
-                        <li><a href="#"><FaChevronRight /> Offices for Buy</a></li>
-                        <li><a href="#"><FaChevronRight /> Office for Rent</a></li>
-                        <li><a href="#"><FaChevronRight /> Faqs</a></li>
+                        <li><a href="#"><FaChevronRight /> Privacy Policy</a></li>
+                        <li><a href="#"><FaChevronRight /> Terms of Service</a></li>
+                        <li><a href="#"><FaChevronRight /> FAQs</a></li>
                     </ul>
                 </div>
             </div>
