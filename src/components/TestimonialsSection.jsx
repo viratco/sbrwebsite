@@ -8,23 +8,23 @@ const TestimonialsSection = () => {
     const testimonials = [
         {
             name: 'Donna Clark',
-            role: 'CEO, Tostate',
+            role: 'Homeowner, SBR Estates',
             image: 'https://randomuser.me/api/portraits/women/44.jpg',
-            text: 'We purchased a property through your website, and the process was quick and convenient. The interface is intuitive, and customer support was always available to assist.',
+            text: 'We purchased a property through SBR Estates, and the process was quick and convenient. The interface is intuitive, and customer support was always available to assist.',
             rating: 5
         },
         {
             name: 'Alex Sunmon',
-            role: 'CEO, Tostate',
+            role: 'Property Investor',
             image: 'https://randomuser.me/api/portraits/men/32.jpg',
-            text: 'We purchased a property through your website, and the process was quick and convenient. The interface is intuitive, and customer support was always available to assist.',
-            rating: 4
+            text: 'We purchased a property through SBR Estates, and the process was quick and convenient. The interface is intuitive, and customer support was always available to assist.',
+            rating: 5
         },
         {
             name: 'Anthony Mitchell',
-            role: 'CEO, Tostate',
+            role: 'Real Estate Developer',
             image: 'https://randomuser.me/api/portraits/men/46.jpg',
-            text: 'We purchased a property through your website, and the process was quick and convenient. The interface is intuitive, and customer support was always available to assist.',
+            text: 'We purchased a property through SBR Estates, and the process was quick and convenient. The interface is intuitive, and customer support was always available to assist.',
             rating: 5
         }
     ];
@@ -70,8 +70,8 @@ const TestimonialsSection = () => {
 
                             <div className="testimonial-footer">
                                 <div className="testimonial-brand">
-                                    <span className="brand-icon">t</span>
-                                    <span className="brand-name">ostate</span>
+                                    <span className="brand-icon">S</span>
+                                    <span className="brand-name">BR Estates</span>
                                 </div>
                                 <div className="testimonial-rating">
                                     {[...Array(5)].map((_, i) => (
