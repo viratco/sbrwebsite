@@ -143,10 +143,11 @@
     gap: 0.4rem;
 }
 
-color: #ff6b35;
-font-weight: 700;
-font-size: 1.2rem;
-font-family: var(--font-display);
+.brand-icon {
+    color: #ff6b35;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: var(--font-display);
 }
 
 .brand-name {
