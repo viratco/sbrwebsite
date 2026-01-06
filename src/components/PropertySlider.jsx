@@ -41,6 +41,15 @@ const PropertySlider = () => {
         setSelectedProperty(null);
     };
 
+    const scrollToContact = (e) => {
+        if (e) e.stopPropagation();
+        closeModal();
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     // Helper to get main image
     const getPropertyImage = (prop) => {
         // Handle array of images from DB or fallback
@@ -79,7 +88,16 @@ const PropertySlider = () => {
                                 </div>
 
                                 <div className="card-footer">
-                                    <div className="card-price">{prop.price ? `$${prop.price}` : 'Price on Request'}</div>
+                                    {prop.price ? (
+                                        <div className="card-price">${prop.price}</div>
+                                    ) : (
+                                        <button
+                                            className="price-request-btn"
+                                            onClick={scrollToContact}
+                                        >
+                                            Price on Request
+                                        </button>
+                                    )}
                                     <button className="card-btn" aria-label="View Details">
                                         <FaArrowRight />
                                     </button>
@@ -122,8 +140,17 @@ const PropertySlider = () => {
                                 </div>
                             </div>
 
-                            <div className="modal-price">
-                                {selectedProperty.price ? `$${selectedProperty.price}` : 'Price on Request'}
+                            <div className="modal-price-container">
+                                {selectedProperty.price ? (
+                                    <div className="modal-price">${selectedProperty.price}</div>
+                                ) : (
+                                    <button
+                                        className="modal-price-btn"
+                                        onClick={scrollToContact}
+                                    >
+                                        Request Price
+                                    </button>
+                                )}
                             </div>
 
                             <p className="modal-description">

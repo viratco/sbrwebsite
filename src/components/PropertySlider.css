@@ -307,6 +307,44 @@
     margin: 1rem 0;
 }
 
+.price-request-btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease;
+}
+
+.price-request-btn:hover {
+    background: white;
+    color: black;
+}
+
+.modal-price-btn {
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s;
+    margin: 1rem 0;
+    display: inline-block;
+}
+
+.modal-price-btn:hover {
+    transform: translateY(-2px);
+    background: #e65100;
+    /* Darker shade of primary */
+}
+
 .modal-description {
     color: rgba(255, 255, 255, 0.8);
     line-height: 1.7;
