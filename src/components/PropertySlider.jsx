@@ -5,6 +5,12 @@ import config from '../config';
 
 // Images handled dynamically via URL or fallback
 
+import gsap from 'gsap';
+import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
+
+// Register standard GSAP plugins
+gsap.registerPlugin(ScrollToPlugin);
+
 const PropertySlider = () => {
     const sliderRef = useRef(null);
     const [properties, setProperties] = React.useState([]);
@@ -44,10 +50,13 @@ const PropertySlider = () => {
     const scrollToContact = (e) => {
         if (e) e.stopPropagation();
         closeModal();
-        const contactSection = document.getElementById('contact');
-        if (contactSection) {
-            contactSection.scrollIntoView({ behavior: 'smooth' });
-        }
+
+        // Use GSAP for a smoother, "easier" scroll animation
+        gsap.to(window, {
+            duration: 1.5,
+            scrollTo: { y: "#contact", offsetY: 50 },
+            ease: "power3.inOut"
+        });
     };
 
     // Helper to get main image
