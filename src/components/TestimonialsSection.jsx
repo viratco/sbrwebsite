@@ -7,9 +7,9 @@ const TestimonialsSection = () => {
 
     const testimonials = [
         {
-            name: 'Rajesh Malhotra',
+            name: 'Anjali Mehta',
             role: 'Luxury Villa Owner',
-            image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
             text: 'Investing with SBR Estates was the best decision for my portfolio. Their selection of off-market properties is unmatched in the region. Truly a class apart.',
             rating: 5
         },

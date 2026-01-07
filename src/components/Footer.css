@@ -47,12 +47,20 @@
     font-family: var(--font-display);
     font-size: 2rem;
     font-weight: 800;
+    /* Main gradient for BR ESTATES */
     background: linear-gradient(180deg, #FFFFFF 20%, #A0A0A0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.brand-col .logo-text .highlight-s {
+    /* Override for S to be orange/primary */
+    background: none;
+    -webkit-text-fill-color: #ff6b35;
+    color: #ff6b35;
 }
 
 .footer-desc {
