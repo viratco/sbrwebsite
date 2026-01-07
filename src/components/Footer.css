@@ -56,12 +56,7 @@
     letter-spacing: 1px;
 }
 
-.brand-col .logo-text .highlight-s {
-    /* Override for S to be orange/primary */
-    background: none;
-    -webkit-text-fill-color: #ff6b35;
-    color: #ff6b35;
-}
+
 
 .footer-desc {
     color: #999;

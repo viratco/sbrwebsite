@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="footer-col brand-col">
                     <div className="footer-logo">
                         <img src={logo} alt="SbrEstates" />
-                        <span className="logo-text"><span className="highlight-s">S</span>BR ESTATES</span>
+                        <span className="logo-text">SBR ESTATES</span>
                     </div>
                     <p className="footer-desc">
                         When choosing a property with us, rest assured that every estate is carefully vetted for architectural excellence and investment value.
