@@ -46,23 +46,23 @@ const VIPSection = () => {
             <div className="vip-container">
                 <div className="vip-content">
                     <h2 className="vip-title">
-                        Find The Most VIP Project<br />
-                        Residence Near You Now!
+                        Unlock Access to Off-Market<br />
+                        Masterpieces Near You.
                     </h2>
 
                     <div className="vip-stats-row">
                         <div className="vip-stat">
                             <span className="stat-number">
-                                <AnimatedCounter end={90} />%
+                                <AnimatedCounter end={98} />%
                             </span>
-                            <span className="stat-desc">Resources 3+ years experienced.</span>
+                            <span className="stat-desc">Client Satisfaction Rate</span>
                         </div>
                         <div className="stat-divider"></div>
                         <div className="vip-stat">
                             <span className="stat-number">
-                                <AnimatedCounter end={85} />%
+                                <AnimatedCounter end={150} />+
                             </span>
-                            <span className="stat-desc">Customer loyalty percentage rate.</span>
+                            <span className="stat-desc">Exclusive Listings</span>
                         </div>
                     </div>
 

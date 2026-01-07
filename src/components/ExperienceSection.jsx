@@ -5,7 +5,7 @@ const ExperienceSection = () => {
         <section className="experience-section">
             <div className="experience-container">
                 <h2 className="experience-title">
-                    Experience Comfort and Community at the SBR Estates Resident Lounge.
+                    Immerse Yourself in the Pinnacle of Comfort and Community at SBR Estates.
                 </h2>
             </div>
         </section>

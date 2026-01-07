@@ -53,10 +53,10 @@ const HeroSection = () => {
                     {/* Overlay Content */}
                     <div className="hero-overlay-content" ref={textRef}>
                         <h1 className="hero-title">
-                            <span className="hero-text-line line-1">Find The Perfect</span>
+                            <span className="hero-text-line line-1">Discover Unparalleled</span>
                             <br />
                             <span className="hero-text-line line-2">
-                                Place In <span className="highlight-text">Your Town
+                                Luxury <span className="highlight-text">Living
                                     <svg className="squiggle" viewBox="0 0 200 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M2 10C20 0 40 20 60 10C80 0 100 20 120 10C140 0 160 20 180 10" stroke="#E65100" strokeWidth="3" strokeLinecap="round" />
                                     </svg>

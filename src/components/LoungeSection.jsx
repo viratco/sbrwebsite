@@ -70,14 +70,14 @@ const LoungeSection = () => {
                 <div className="lounge-right">
                     <div className="lounge-text-content">
                         <p className="lounge-description">
-                            Welcome to the Resident Lounge at Tostate, where comfort and community come together. Our resident lounge designed to be a versatile and inviting space for all our residents.
+                            Welcome to the Resident Lounge at SBR Estates, where comfort meets sophistication. A sanctuary designed for relaxation, connection, and community in an atmosphere of understated elegance.
                         </p>
                     </div>
 
                     <div className="lounge-bottom-layout">
                         <h2 className="lounge-big-title">
-                            <span className="title-perfect">Perfect</span>
-                            <span className="title-property">property</span>
+                            <span className="title-perfect">Timeless</span>
+                            <span className="title-property">Elegance</span>
                         </h2>
 
                         <div className="lounge-interior-wrapper" ref={interiorRef}>

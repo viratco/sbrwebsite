@@ -32,9 +32,9 @@ const AboutSection = () => {
             <div className="about-container">
                 {/* Left Content */}
                 <div className="about-text-content">
-                    <span className="about-label">ABOUT US</span>
+                    <span className="about-label">OUR PHILOSOPHY</span>
                     <h2 className="about-headline">
-                        Here Are Some Compelling Title Ideas For The "About" Section Of A Single Property In Real Estate
+                        Redefining Modern Living Through Exceptional Design & Curated Experiences.
                     </h2>
                 </div>
 
@@ -47,7 +47,7 @@ const AboutSection = () => {
                             </defs>
                             <text fontSize="11.5" fontWeight="bold" fill="white" letterSpacing="2">
                                 <textPath xlinkHref="#circlePath">
-                                    CIRCULAR TEXT DESIGN • REAL ESTATE 2025 •
+                                    SBR ESTATES • EXCELLENCE IN LIVING •
                                 </textPath>
                             </text>
                         </svg>

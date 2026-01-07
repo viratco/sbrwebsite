@@ -44,10 +44,10 @@ const ContactFormSection = () => {
         <section id="contact" className="contact-form-section">
             <div className="container contact-container">
                 <div className="contact-content">
-                    <h2 className="contact-title">Apply for Membership</h2>
+                    <h2 className="contact-title">Schedule a Private Consultation</h2>
                     <p className="contact-subtitle">
-                        Join an exclusive community of visionaries.
                         Begin your journey to exceptional living.
+                        Connect with our team to explore exclusive opportunities.
                     </p>
 
                     <form className="contact-form glass-form" onSubmit={handleSubmit}>
