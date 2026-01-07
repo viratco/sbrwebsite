@@ -23,7 +23,7 @@ const TestimonialsSection = () => {
         {
             name: 'Amit Vikram Singh',
             role: 'Real Estate Investor',
-            image: 'https://images.unsplash.com/photo-1560250097-d835003b5af1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
             text: 'Transparency and trust are rare in this industry, but SBR Estates sets the gold standard. A seamless buying experience from the first consultation to the final handover.',
             rating: 5
         }
