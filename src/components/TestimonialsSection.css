@@ -137,10 +137,9 @@
     margin-top: auto;
 }
 
-.testimonial-brand {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
+display: flex;
+align-items: center;
+gap: 0;
 }
 
 .brand-icon {

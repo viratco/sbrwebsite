@@ -71,7 +71,7 @@ const TestimonialsSection = () => {
                             <div className="testimonial-footer">
                                 <div className="testimonial-brand">
                                     <span className="brand-icon">S</span>
-                                    <span className="brand-name">BR Estates</span>
+                                    <span className="brand-name">BR ESTATES</span>
                                 </div>
                                 <div className="testimonial-rating">
                                     {[...Array(5)].map((_, i) => (
