@@ -95,8 +95,9 @@
     align-items: baseline;
     gap: 0.4rem;
     /* Reduced space between Perfect and property */
-    margin-right: -280px;
-    /* Align image starting position with 'P' of property */
+    margin-right: 0;
+    /* Reset margin to prevent overflow */
+    flex-wrap: wrap;
 }
 
 .title-perfect {
@@ -108,7 +109,8 @@
     -webkit-text-stroke: 1px white;
     font-style: italic;
     position: relative;
-    left: 40px;
+    left: 0;
+    /* Reset left push */
 }
 
 .lounge-interior-wrapper {
