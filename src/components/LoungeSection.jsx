@@ -70,7 +70,7 @@ const LoungeSection = () => {
                 <div className="lounge-right">
                     <div className="lounge-text-content">
                         <p className="lounge-description">
-                            Welcome to the Resident Lounge at SBR Estates, where comfort meets sophistication. A sanctuary designed for relaxation, connection, and community in an atmosphere of understated elegance.
+                            Step into the SBR Estates Resident Lounge—a curated sanctuary where luxury meets leisure. Designed for both relaxation and connection, this exclusive space offers an atmosphere of refined elegance for our distinguished residents.
                         </p>
                     </div>
 
