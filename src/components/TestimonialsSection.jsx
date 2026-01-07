@@ -7,24 +7,24 @@ const TestimonialsSection = () => {
 
     const testimonials = [
         {
-            name: 'Donna Clark',
-            role: 'Homeowner, SBR Estates',
-            image: 'https://randomuser.me/api/portraits/women/44.jpg',
-            text: 'We purchased a property through SBR Estates, and the process was quick and convenient. The interface is intuitive, and customer support was always available to assist.',
+            name: 'Rajesh Malhotra',
+            role: 'Luxury Villa Owner',
+            image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            text: 'Investing with SBR Estates was the best decision for my portfolio. Their selection of off-market properties is unmatched in the region. Truly a class apart.',
             rating: 5
         },
         {
-            name: 'Alex Sunmon',
-            role: 'Property Investor',
-            image: 'https://randomuser.me/api/portraits/men/32.jpg',
-            text: 'We purchased a property through SBR Estates, and the process was quick and convenient. The interface is intuitive, and customer support was always available to assist.',
+            name: 'Priya Sharma',
+            role: 'IT Entrepreneur',
+            image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            text: 'I was looking for a home that reflected my lifestyle, and SBR Estates delivered perfection. The attention to detail in their architectural curation is simply breathtaking.',
             rating: 5
         },
         {
-            name: 'Anthony Mitchell',
-            role: 'Real Estate Developer',
-            image: 'https://randomuser.me/api/portraits/men/46.jpg',
-            text: 'We purchased a property through SBR Estates, and the process was quick and convenient. The interface is intuitive, and customer support was always available to assist.',
+            name: 'Amit Vikram Singh',
+            role: 'Real Estate Investor',
+            image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            text: 'Transparency and trust are rare in this industry, but SBR Estates sets the gold standard. A seamless buying experience from the first consultation to the final handover.',
             rating: 5
         }
     ];
