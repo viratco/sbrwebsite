@@ -70,14 +70,14 @@ const LoungeSection = () => {
                 <div className="lounge-right">
                     <div className="lounge-text-content">
                         <p className="lounge-description">
-                            Step into the SBR Estates Resident Lounge—a curated sanctuary where luxury meets leisure. Designed for both relaxation and connection, this exclusive space offers an atmosphere of refined elegance for our distinguished residents.
+                            Discover the art of refined living with SBR Estates. We meticulously select properties that embody structural brilliance and aesthetic mastery, creating homes that are not just places to stay, but landmarks of your personal legacy.
                         </p>
                     </div>
 
                     <div className="lounge-bottom-layout">
                         <h2 className="lounge-big-title">
-                            <span className="title-perfect">Timeless</span>
-                            <span className="title-property">Elegance</span>
+                            <span className="title-perfect">Architectural</span>
+                            <span className="title-property">Mastery</span>
                         </h2>
 
                         <div className="lounge-interior-wrapper" ref={interiorRef}>
