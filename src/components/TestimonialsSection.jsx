@@ -16,7 +16,7 @@ const TestimonialsSection = () => {
         {
             name: 'Priya Sharma',
             role: 'IT Entrepreneur',
-            image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+            image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
             text: 'I was looking for a home that reflected my lifestyle, and SBR Estates delivered perfection. The attention to detail in their architectural curation is simply breathtaking.',
             rating: 5
         },
