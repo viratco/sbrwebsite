@@ -14,7 +14,7 @@ const Footer = () => {
                         <span className="logo-text">SbrEstates</span>
                     </div>
                     <p className="footer-desc">
-                        When choosing a rental home with us, rest assured that every property is carefully vetted for quality and comfort.
+                        When choosing a property with us, rest assured that every estate is carefully vetted for architectural excellence and investment value.
                     </p>
                     <div className="contact-info">
                         <div className="contact-item">
