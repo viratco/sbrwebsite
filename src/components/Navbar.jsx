@@ -34,7 +34,7 @@ const Navbar = () => {
                             <path d="M1 1L5 5L9 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </a>
-                    <Link to="/info" className="nav-link">Info</Link>
+                    <Link to="/info" className="nav-link">About Us</Link>
                     <Link to="/blog" className="nav-link">Blog</Link>
                     <a href="#contact" className="nav-link">Contact Us</a>
                 </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
                     <div className="mobile-nav-links">
                         <Link to="/" className="mobile-link" onClick={toggleMenu}>Home</Link>
                         <a href="#listing" className="mobile-link" onClick={toggleMenu}>Listing</a>
-                        <Link to="/info" className="mobile-link" onClick={toggleMenu}>Info</Link>
+                        <Link to="/info" className="mobile-link" onClick={toggleMenu}>About Us</Link>
                         <Link to="/blog" className="mobile-link" onClick={toggleMenu}>Blog</Link>
                         <a href="#contact" className="mobile-link" onClick={toggleMenu}>Contact Us</a>
 

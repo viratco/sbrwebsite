@@ -20,7 +20,7 @@ const Footer = () => {
                         <div className="contact-item">
                             <div className="contact-icon"><FaMapMarkerAlt /></div>
                             <div className="contact-text">
-                                <p>Cb-009; Ansal Golf Link -1,</p>
+                                <p>CB-009; Ansal Golf Link -1,</p>
                                 <p>Greater Noida</p>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ const Footer = () => {
                             <div className="contact-icon"><FaPhone /></div>
                             <div className="contact-text">
                                 <p>+91 97180 16677</p>
-                                <p>+91 9718056662</p>
+                                <p>+91 97180 56662</p>
                             </div>
                         </div>
                     </div>
