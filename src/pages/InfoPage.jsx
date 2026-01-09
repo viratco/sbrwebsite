@@ -97,13 +97,6 @@ const InfoPage = () => {
                     </h2>
                     <div className="directors-grid">
                         <div className="director-card">
-                            <div className="director-image-wrapper">
-                                <img
-                                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Director 1"
-                                    className="director-image"
-                                />
-                            </div>
                             <div className="director-info">
                                 <h3 className="director-name">Alexander Sterling</h3>
                                 <span className="director-role">Founder & CEO</span>
@@ -115,13 +108,6 @@ const InfoPage = () => {
                         </div>
 
                         <div className="director-card">
-                            <div className="director-image-wrapper">
-                                <img
-                                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Director 2"
-                                    className="director-image"
-                                />
-                            </div>
                             <div className="director-info">
                                 <h3 className="director-name">Victoria Vance</h3>
                                 <span className="director-role">Managing Director</span>
