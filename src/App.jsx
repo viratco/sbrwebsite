@@ -17,6 +17,7 @@ import Preloader from './components/Preloader';
 import InfoPage from './pages/InfoPage';
 import BlogPage from './pages/BlogPage';
 import BlogPostPage from './pages/BlogPostPage';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
 
     return (
         <>
+            <ScrollToTop />
             {isLoading && <Preloader onLoadingComplete={handlePreloaderComplete} />}
             {!isLoading && (
                 <Routes>
