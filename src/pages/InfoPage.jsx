@@ -19,7 +19,7 @@ const InfoPage = () => {
                         Excellence & Trust
                     </h1>
                     <p className="info-subtitle">
-                        For over two decades, SbrEstates has defined the standard for ultra-luxury living.
+                        For over two decades, SBR ESTATES has defined the standard for ultra-luxury living.
                         We don't just sell properties; we curate lifestyles for the world's most discerning individuals.
                     </p>
                 </div>
@@ -37,7 +37,7 @@ const InfoPage = () => {
                         </p>
                         <p className="trust-text">
                             With thousands of successful handovers and a portfolio worth billions,
-                            SbrEstates remains the most trusted name in premium real estate.
+                            SBR ESTATES remains the most trusted name in premium real estate.
                             We honor your trust with unwavering dedication to perfection.
                         </p>
                     </div>

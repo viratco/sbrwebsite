@@ -10,21 +10,21 @@ const TestimonialsSection = () => {
             name: 'Anjali Mehta',
             role: 'Luxury Villa Owner',
             image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-            text: 'Investing with SBR Estates was the best decision for my portfolio. Their selection of off-market properties is unmatched in the region. Truly a class apart.',
+            text: 'Investing with SBR ESTATES was the best decision for my portfolio. Their selection of off-market properties is unmatched in the region. Truly a class apart.',
             rating: 5
         },
         {
             name: 'Priya Sharma',
             role: 'IT Entrepreneur',
             image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-            text: 'I was looking for a home that reflected my lifestyle, and SBR Estates delivered perfection. The attention to detail in their architectural curation is simply breathtaking.',
+            text: 'I was looking for a home that reflected my lifestyle, and SBR ESTATES delivered perfection. The attention to detail in their architectural curation is simply breathtaking.',
             rating: 5
         },
         {
             name: 'Amit Vikram Singh',
             role: 'Real Estate Investor',
             image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-            text: 'Transparency and trust are rare in this industry, but SBR Estates sets the gold standard. A seamless buying experience from the first consultation to the final handover.',
+            text: 'Transparency and trust are rare in this industry, but SBR ESTATES sets the gold standard. A seamless buying experience from the first consultation to the final handover.',
             rating: 5
         }
     ];

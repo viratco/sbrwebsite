@@ -70,7 +70,7 @@ const LoungeSection = () => {
                 <div className="lounge-right">
                     <div className="lounge-text-content">
                         <p className="lounge-description">
-                            Discover the art of refined living with SBR Estates. We meticulously select properties that embody structural brilliance and aesthetic mastery, creating homes that are not just places to stay, but landmarks of your personal legacy.
+                            Discover the art of refined living with SBR ESTATES. We meticulously select properties that embody structural brilliance and aesthetic mastery, creating homes that are not just places to stay, but landmarks of your personal legacy.
                         </p>
                     </div>
 

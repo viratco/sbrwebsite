@@ -11,7 +11,7 @@ const Footer = () => {
                 {/* Column 1: Brand */}
                 <div className="footer-col brand-col">
                     <div className="footer-logo">
-                        <img src={logo} alt="SbrEstates" />
+                        <img src={logo} alt="SBR ESTATES" />
                         <span className="logo-text">SBR ESTATES</span>
                     </div>
                     <p className="footer-desc">
@@ -60,7 +60,7 @@ const Footer = () => {
             {/* Bottom Bar */}
             <div className="footer-bottom">
                 <div className="copyright">
-                    Copyright: © 2025 by SbrEstates. All Rights Reserved.
+                    Copyright: © 2025 by SBR ESTATES. All Rights Reserved.
                 </div>
                 <div className="bottom-links">
                     <a href="#">Listing</a>
