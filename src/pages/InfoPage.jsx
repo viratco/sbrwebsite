@@ -74,7 +74,7 @@ const InfoPage = () => {
                 </section>
 
 
-                </section>
+
             </main>
 
             <Footer />
