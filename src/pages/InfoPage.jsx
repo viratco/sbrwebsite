@@ -98,8 +98,6 @@ const InfoPage = () => {
                     <div className="directors-grid">
                         <div className="director-card">
                             <div className="director-info">
-                                <h3 className="director-name">Alexander Sterling</h3>
-                                <span className="director-role">Founder & CEO</span>
                                 <p className="director-bio">
                                     With a vision to redefine luxury, Alexander has steered SbrEstates
                                     to the summit of the real estate world, crafting iconic living spaces for the global elite.
@@ -109,8 +107,6 @@ const InfoPage = () => {
 
                         <div className="director-card">
                             <div className="director-info">
-                                <h3 className="director-name">Victoria Vance</h3>
-                                <span className="director-role">Managing Director</span>
                                 <p className="director-bio">
                                     Victoria's impeccable taste and strategic prowess ensure that every
                                     property we represent is not just a home, but a masterpiece of design and investment.
