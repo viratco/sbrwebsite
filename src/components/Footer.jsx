@@ -1,4 +1,5 @@
 import { FaEnvelope, FaPhone, FaChevronRight, FaMapMarkerAlt } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 import logo from '../assets/logo.png';
 import footerBg from '../assets/footer_bg.png';
@@ -38,10 +39,10 @@ const Footer = () => {
                 <div className="footer-col links-col">
                     <h3>Quick Links</h3>
                     <ul className="footer-links">
-                        <li><a href="/"><FaChevronRight /> Home</a></li>
-                        <li><a href="#about"><FaChevronRight /> About Us</a></li>
-                        <li><a href="#properties"><FaChevronRight /> Properties</a></li>
-                        <li><a href="#contact"><FaChevronRight /> Contact</a></li>
+                        <li><Link to="/"><FaChevronRight /> Home</Link></li>
+                        <li><Link to="/info"><FaChevronRight /> About Us</Link></li>
+                        <li><a href="/#properties"><FaChevronRight /> Properties</a></li>
+                        <li><a href="/#contact"><FaChevronRight /> Contact</a></li>
                     </ul>
                 </div>
 

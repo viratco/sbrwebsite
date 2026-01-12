@@ -28,15 +28,15 @@ const Navbar = () => {
                             <path d="M1 1L5 5L9 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </Link>
-                    <a href="#listing" className="nav-link">
-                        Listing
+                    <a href="/#properties" className="nav-link">
+                        Properties
                         <svg className="chevron" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1 1L5 5L9 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                     </a>
                     <Link to="/info" className="nav-link">About Us</Link>
                     <Link to="/blog" className="nav-link">Blog</Link>
-                    <a href="#contact" className="nav-link">Contact Us</a>
+                    <a href="/#contact" className="nav-link">Contact Us</a>
                 </div>
 
                 {/* Right CTA Button (Desktop) */}
@@ -64,10 +64,10 @@ const Navbar = () => {
                 <div className={`mobile-menu ${isOpen ? 'active' : ''}`}>
                     <div className="mobile-nav-links">
                         <Link to="/" className="mobile-link" onClick={toggleMenu}>Home</Link>
-                        <a href="#listing" className="mobile-link" onClick={toggleMenu}>Listing</a>
+                        <a href="/#properties" className="mobile-link" onClick={toggleMenu}>Properties</a>
                         <Link to="/info" className="mobile-link" onClick={toggleMenu}>About Us</Link>
                         <Link to="/blog" className="mobile-link" onClick={toggleMenu}>Blog</Link>
-                        <a href="#contact" className="mobile-link" onClick={toggleMenu}>Contact Us</a>
+                        <a href="/#contact" className="mobile-link" onClick={toggleMenu}>Contact Us</a>
 
                         <button className="navbar-cta mobile-cta">
                             Add Property +

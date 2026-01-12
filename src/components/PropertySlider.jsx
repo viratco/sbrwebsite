@@ -68,7 +68,7 @@ const PropertySlider = () => {
     };
 
     return (
-        <section className="property-showcase-section">
+        <section id="properties" className="property-showcase-section">
             <div className="property-header">
                 <h2 className="property-title">Curated Residences</h2>
                 <p className="property-subtitle">
