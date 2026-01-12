@@ -42,23 +42,7 @@ const InfoPage = () => {
                         </p>
                     </div>
 
-                    {/* Visual Card / Stats */}
-                    <div className="trust-card">
-                        <div style={{ display: 'flex', gap: '1rem', alignItems: 'center', marginBottom: '2rem' }}>
-                            <FaAward style={{ fontSize: '3rem', color: '#E65100' }} />
-                            <div>
-                                <h3 style={{ fontSize: '2rem', fontFamily: 'var(--font-display)', margin: 0 }}>#1 Rated</h3>
-                                <span style={{ color: '#888' }}>Luxury Agency 5 Years in a Row</span>
-                            </div>
-                        </div>
-                        <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-                            <FaChartLine style={{ fontSize: '3rem', color: '#E65100' }} />
-                            <div>
-                                <h3 style={{ fontSize: '2rem', fontFamily: 'var(--font-display)', margin: 0 }}>$5B+</h3>
-                                <span style={{ color: '#888' }}>Total Property Value Sold</span>
-                            </div>
-                        </div>
-                    </div>
+
                 </section>
 
                 {/* Features Grid */}
@@ -90,30 +74,6 @@ const InfoPage = () => {
                 </section>
 
 
-                {/* Directors Section */}
-                <section className="directors-section">
-                    <h2 className="section-title" style={{ textAlign: 'center', marginBottom: '4rem' }}>
-                        Visionary Leadership
-                    </h2>
-                    <div className="directors-grid">
-                        <div className="director-card">
-                            <div className="director-info">
-                                <p className="director-bio">
-                                    With a vision to redefine luxury, Alexander has steered SbrEstates
-                                    to the summit of the real estate world, crafting iconic living spaces for the global elite.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div className="director-card">
-                            <div className="director-info">
-                                <p className="director-bio">
-                                    Victoria's impeccable taste and strategic prowess ensure that every
-                                    property we represent is not just a home, but a masterpiece of design and investment.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                 </section>
             </main>
 
